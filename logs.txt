@@ -834,3 +834,5 @@
 [2026-09-21 15:13:28] Archivos locales actualizados. Estado global: LIBRE
 [2026-09-21 15:13:40] Error en Git Push: {error.message}
 [2026-09-21 15:14:28] Archivos locales actualizados. Estado global: LIBRE
+[2026-09-21 15:14:30] Cambios subidos a GitHub Pages exitosamente.
+[2026-09-21 15:15:28] Archivos locales actualizados. Estado global: LIBRE
