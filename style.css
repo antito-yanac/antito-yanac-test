@@ -74,3 +74,15 @@ body {
 .nivel.amarilla { color: #C9A200; }
 .nivel.verde    { color: #2ECC71; }
 
+/* ---- Horas de inicio / fin ---- */
+.sector-box .horas {
+    margin: 4px 0 0 0;
+    font-size: 13px;
+    color: #4b5563;
+}
+
+.sector-box .horas span {
+    font-weight: 600;
+    color: #6b7280;
+}
+
