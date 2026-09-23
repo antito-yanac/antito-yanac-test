@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-23T23:35:33.470Z",
+  "actualizado": "2026-09-23T23:39:43.028Z",
   "estadoGlobal": "AMARILLA",
   "estadoGlobalNumero": 1,
   "totalSectores": 4,
@@ -40,7 +40,7 @@
       "nivelNumero": 1,
       "color": "#FFD400",
       "inicio": "2026-09-23 18:30:03",
-      "fin": "2026-09-23 19:00:03"
+      "fin": "2026-09-23 19:09:13"
     }
   ]
 }
