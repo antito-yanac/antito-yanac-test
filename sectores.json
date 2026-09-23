@@ -1,0 +1,46 @@
+{
+  "actualizado": "2026-09-23T20:09:51.851Z",
+  "estadoGlobal": "ROJA",
+  "estadoGlobalNumero": 3,
+  "totalSectores": 4,
+  "resumen": {
+    "roja": 1,
+    "naranja": 3,
+    "amarilla": 0,
+    "verde": 0
+  },
+  "sectores": [
+    {
+      "nombre": "Campamento Yanacancha - (Nuevo Campamento, Descarga Norte Presa Relaves, Polishing Pond, Garita Laguna Huallacocha, Garita plataforma km 114, Tailing Dam Norte - Punto Y, Garita Portón Principal, Grifo Yanacancha)",
+      "nivel": "ROJA",
+      "nivelNumero": 3,
+      "color": "#FA5858",
+      "inicio": "2026-09-23 14:21:08",
+      "fin": "2026-09-23 15:36:21"
+    },
+    {
+      "nombre": "Oficinas Mina - (Grifo 4448, Punto E, Ingreso Laguna Seca, Nasa, Oficinas Mina, Concentradora, Plataforma Pre PM, Presa Relaves, Plataforma de Armado)",
+      "nivel": "NARANJA",
+      "nivelNumero": 2,
+      "color": "#FF8C00",
+      "inicio": "2026-09-23 14:21:08",
+      "fin": "2026-09-23 15:36:21"
+    },
+    {
+      "nombre": "Tajo - (Fase 7-8-9-10, Rampa Sur, Quebrada Antamina, Chancadora primaria)",
+      "nivel": "NARANJA",
+      "nivelNumero": 2,
+      "color": "#FF8C00",
+      "inicio": "2026-09-23 14:21:08",
+      "fin": "2026-09-23 15:34:18"
+    },
+    {
+      "nombre": "Tucush  - (CTC Tucush, Truck Shop, Rosita de Oro, Taller eléctrico Mina, Polvorines 1 y 2, Botadero Tucush, Espaldón de Presa)",
+      "nivel": "NARANJA",
+      "nivelNumero": 2,
+      "color": "#FF8C00",
+      "inicio": "2026-09-23 14:21:08",
+      "fin": "2026-09-23 15:36:21"
+    }
+  ]
+}
