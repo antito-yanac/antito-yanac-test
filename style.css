@@ -1,34 +1,76 @@
+/* ============================================================
+   Estilos Monitor Keraunos
+   Colores: ROJA / NARANJA / AMARILLA / VERDE (sin alerta)
+   ============================================================ */
+
+* { box-sizing: border-box; }
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: #f4f4f4;
-    padding: 40px;
-}
-
-.global {
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.sector-box {
-    display: inline-block;
-    margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
     padding: 20px;
-    border-radius: 8px;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    width: 150px;
+    color: #1f2937;
 }
 
-.ROJA {
-    color: red;
+/* ---- Barra de estado global ---- */
+.global {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px;
+    border-radius: 10px;
+    color: #fff;
+    letter-spacing: 1px;
 }
 
-.NARANJA {
-    color: orange;
+.global.roja     { background: #FA5858; }
+.global.naranja  { background: #FF8C00; }
+.global.amarilla { background: #FFD400; color: #000; }
+.global.verde    { background: #2ECC71; }
+
+/* ---- Contenedor de sectores ---- */
+.secciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 10px;
 }
 
-.LIBRE {
-    color: green;
+/* ---- Tarjeta de cada sector ---- */
+.sector-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px 20px;
+    min-width: 260px;
+    max-width: 360px;
+    flex: 1 1 260px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-left: 8px solid #ccc;
 }
+
+.sector-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #374151;
+}
+
+.sector-box .nivel {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* ---- Colores por nivel (borde + texto) ---- */
+.sector-box.roja     { border-left-color: #FA5858; }
+.sector-box.naranja  { border-left-color: #FF8C00; }
+.sector-box.amarilla { border-left-color: #FFD400; }
+.sector-box.verde    { border-left-color: #2ECC71; }
+
+.nivel.roja     { color: #FA5858; }
+.nivel.naranja  { color: #FF8C00; }
+.nivel.amarilla { color: #C9A200; }
+.nivel.verde    { color: #2ECC71; }
+
