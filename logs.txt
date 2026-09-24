@@ -1715,3 +1715,10 @@
 [2026-09-24 06:25:48] Error al consultar Keraunos: timeout of 20000ms exceeded
 [2026-09-24 06:26:44] Archivos actualizados. Global: VERDE | R:0 N:0 A:0 V:4
 [2026-09-24 06:27:35] Archivos actualizados. Global: VERDE | R:0 N:0 A:0 V:4
+[2026-09-24 06:27:40] Cambios subidos a GitHub Pages exitosamente.
+[2026-09-24 06:27:41] Error en Git Push: Command failed: git add index.html estado.txt logs.txt sectores.json style.css && git commit -m "Update status automatico" && git push
+To https://github.com/antito-yanac/antito-yanac-test.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 69e229e690c682712741d4be35cc4b8c0e58484d but expected 3e16040c4db739e12124ba8358f16eb3d2dd9a2c)
+error: failed to push some refs to 'https://github.com/antito-yanac/antito-yanac-test.git'
+
+[2026-09-24 06:28:31] Archivos actualizados. Global: VERDE | R:0 N:0 A:0 V:4
